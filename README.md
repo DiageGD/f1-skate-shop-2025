@@ -1,4 +1,4 @@
-# 🛹 Formula One Skate Shop 2025
+# Formula One Skate Shop 2025
 
 Un site web conceptuel et immersif qui transpose les livrées officielles de la saison de **Formule 1 2025** sur des planches de skateboard. 
 
@@ -6,7 +6,7 @@ L'objectif de ce projet est de fusionner l'ingénierie de pointe de la F1 avec l
 
 ---
 
-### 🚀 Aperçu du projet
+### Aperçu du projet
 
 Le site propose une expérience visuelle fluide où chaque écurie dispose de son propre univers. Pour chaque section, vous retrouverez :
 * **Galerie interactive** : Un comparatif visuel entre la monoplace réelle et le skateboard customisé.
@@ -16,7 +16,7 @@ Le site propose une expérience visuelle fluide où chaque écurie dispose de so
 
 ---
 
-### 🛠️ Technologies utilisées
+### Technologies utilisées
 
 Ce projet repose exclusivement sur des technologies web natives (**Vanilla**), sans aucun framework ni préprocesseur, garantissant une légèreté et une performance optimales :
 
