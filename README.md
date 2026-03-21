@@ -27,7 +27,7 @@ Ce projet repose exclusivement sur des technologies web natives (**Vanilla**), s
 
 ---
 
-### 🏎️ Équipes & Équipements disponibles
+### Équipes & Équipements disponibles
 
 Retrouvez les livrées 2025 de l'intégralité de la grille :
 * **Top Teams** : Ferrari SF-25, Red Bull RB21, Mercedes W16, McLaren MCL39.
