@@ -40,7 +40,7 @@ Retrouvez les livrées 2025 de l'intégralité de la grille :
 
 Tous les designs de skateboards présents sur ce site sont des créations originales générées via :
 * **ChatGPT (DALL-E 3)**
-* **Google Gemini**
+* **Google Gemini (Nano Banana 2)**
 
 *Note : Ces outils ont été utilisés pour explorer des concepts visuels et tester l'intégration d'assets générés par IA dans un workflow de développement web.*
 
@@ -61,5 +61,5 @@ Tous les designs de skateboards présents sur ce site sont des créations origin
 Bien que ce projet soit un concept, des améliorations sont envisagées :
 * Finalisation d'un système de panier interactif.
 * Animations d'apparition des cartes.
-* Optimisation SEO et accessibilité.
+* Optimisation d'accessibilité.
 * Possiblité de faire les livrées d'autres années.
