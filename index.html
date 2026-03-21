@@ -1,13 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="color-scheme" content="light dark">
-    <link rel="stylesheet" href="FormulaOneSkateShop.CSS" />
+    <link rel="stylesheet" href="FormulaOneSkateShop.css" />
+    <script src="scroll.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,93 +24,291 @@
     <title>2025 Formula 1 Livery - Skate E-Shop</title>
   </head>
   <body>
-    <section class="Title_box">
-      <h1>2025 Formula 1 livery, now on Skateboards</h1>
-      <h5>All skateboards images have been generated freely with ChatGPT and Gemini.</h5>
+    <section class="title_box">
+      <h1>2025</h1>
+      <img src="logo/f1-logo.jpg" class="logo">
+      <h1>livrées, désormais sur Skateboards</h1>
+      <h5>Toutes les images de skateboards ont été générées gratuitement par ChatGPT et Gemini.</h5>
     </section>
 
-    <section class="presentation">
-    <div class="team-grid">
-      <!-- Ferrari -->
-      <ul class="ferrari">
-        <li><img src="Scuderia Ferrari HP/F1/front view.jpeg" class="menu_f1"></li>
-        <li><img src="Scuderia Ferrari HP/Skate/F1 Scuderia Ferrari HP Studio Skate.png" class="menu_studio_skate"></li>
-        <li><button class="buybutton"><span>Order SF-25 Skate</span></button></li>
-      </ul>
-
-      <!-- RedBull -->
-      <ul class="redbull">
-        <li><img src="RedBull Racing/F1/front view.jpg" class="menu_f1"></li>
-        <li><img src="RedBull Racing/Skate/F1 RedBull Racing Studio Skate.png" class="menu_studio_skate"></li>
-        <li><button class="buybutton"><span>Order RB21 Skate</span></button></li>
-      </ul>
-
-      <!-- McLaren -->
-      <ul class="mclaren">
-        <li><img src="McLaren/F1/front view.jpeg" class="menu_f1"></li>
-        <li><img src="McLaren/Skate/F1 McLaren Studio Skate.png" class="menu_studio_skate"></li>
-        <li><button class="buybutton"><span>Order MCL39 Skate</span></button></li>
-      </ul>
-
-      <!-- Aston Martin -->
-      <ul class="astonmartin">
-        <li><img src="Aston Martin/F1/front view.jpg" class="menu_f1"></li>
-        <li><img src="Aston Martin/Skate/F1 Aston Martin Studio Skate.png" class="menu_studio_skate"></li>
-        <li><button class="buybutton"><span>Order AMR25 Skate</span></button></li>
-      </ul>
-
-      <!-- Alpine -->
-      <ul class="alpine">
-        <li><img src="Alpine/F1/front view.jpg" class="menu_f1"></li>
-        <li><img src="Alpine/Skate/F1 Alpine Studio Skate.png" class="menu_studio_skate"></li>
-        <li><button class="buybutton"><span>Order A525 Skate</span></button></li>
-      </ul>
-
-      <!-- Haas -->
-      <ul class="haas">
-        <li><img src="Haas/F1/front view.jpg" class="menu_f1"></li>
-        <li><img src="Haas/Skate/F1 Haas Studio Skate.png" class="menu_studio_skate"></li>
-        <li><button class="buybutton"><span>Order VF-25 Skate</span></button></li>
-      </ul>
-
-      <!-- Kick Sauber -->
-      <ul class="kicksauber">
-        <li><img src="Kick Sauber/F1/front view.jpg" class="menu_f1"></li>
-        <li><img src="Kick Sauber/Skate/F1 Kick Sauber Studio Skate.png" class="menu_studio_skate"></li>
-        <li><button class="buybutton"><span>Order C45 Skate</span></button></li>
-      </ul>
-
-      <!-- Mercedes -->
-      <ul class="mercedes">
-        <li><img src="Mercedes AMG Petronas/F1/front view.jpg" class="menu_f1"></li>
-        <li><img src="Mercedes AMG Petronas/Skate/F1 Mercedes AMG Petronas Studio Skate.png" class="menu_studio_skate"></li>
-        <li><button class="buybutton"><span>Order W16 Skate</span></button></li>
-      </ul>
-
-      <!-- Visa Cash App RB -->
-      <ul class="vcarb">
-        <li><img src="Visa Cash App Racing Bulls/F1/front view.jpg" class="menu_f1"></li>
-        <li><img src="Visa Cash App Racing Bulls/Skate/F1 Visa Cash App Racing Bulls Studio Skate.png" class="menu_studio_skate"></li>
-        <li><button class="buybutton"><span>Order VCARB 02 Skate</span></button></li>
-      </ul>
-
-      <!-- Williams Racing -->
-      <ul class="williams">
-        <li><img src="Williams Racing/F1/front view.jpg" class="menu_f1"></li>
-        <li><img src="Williams Racing/Skate/F1 Williams Racing Studio Skate.png" class="menu_studio_skate"></li>
-        <li><button class="buybutton"><span>Order Williams FW47 Skate</span></button></li>
-      </ul>
-
-      <!-- Audi -->
-      <ul class="audi">
-        <li style="visibility:hidden;"><!-- placeholder F1 --></li>
-        <li><img src="Audi (Hypothetically)/Skate/F1 Audi Studio Skate.png" class="menu_studio_skate"></li>
-        <li><button class="buybutton"><span>Order Audi Skate</span></button></li>
-      </ul>
-
-    </div>
+    <!-- Ferrari -->
+    <section class="team-section ferrari">
+      <div class="scroll-track">
+        <img src="Scuderia%20Ferrari%20HP/F1/front%20view.jpeg">
+        <img src="Scuderia%20Ferrari%20HP/Skate/F1%20Scuderia%20Ferrari%20HP%20Skate.png">
+        <img src="Scuderia%20Ferrari%20HP/F1/lateral%20view.jpeg">
+        <img src="Scuderia%20Ferrari%20HP/Skate/F1%20Scuderia%20Ferrari%20HP%20Studio%20Skate.png">
+        <img src="Scuderia%20Ferrari%20HP/F1/top%20view.jpg">
+        <img src="Scuderia%20Ferrari%20HP/Skate/Scuderia%20Ferrari%20HP%20Skate.png">
+        <img src="Scuderia%20Ferrari%20HP/F1/track%20view.jpg">
+        <img src="Scuderia%20Ferrari%20HP/F1/front%20view.jpeg">
+      </div>
+        
+      <div class="team-card right">
+        <h2>Ferrari SF-25</h2>
+        <p>L'iconique marque italienne.</p>
+        <button class="buybutton"><span>Commander</span></button>
+      </div>
     </section>
+
+    <!-- Red Bull -->
+    <section class="team-section redbull">
+      <div class="scroll-track">
+        <img src="RedBull%20Racing/F1/front%20view.jpg">
+        <img src="RedBull%20Racing/Skate/F1%20RedBull%20Racing%20Skate.png">
+        <img src="RedBull%20Racing/F1/lateral%20view.jpg">
+        <img src="RedBull%20Racing/Skate/F1%20RedBull%20Racing%20Studio%20Skate.png">
+        <img src="RedBull%20Racing/F1/top%20view.jpg">
+        <img src="RedBull%20Racing/Skate/RedBull%20Racing%20Skate.png">
+        <img src="RedBull%20Racing/F1/track%20view.jpg">
+        <img src="RedBull%20Racing/F1/front%20view.jpg">
+      </div>
+        
+      <div class="team-card left">
+        <h2>RedBull RB21</h2>
+        <p>La boisson qui donne des ailes.</p>
+        <button class="buybutton"><span>Commander</span></button>
+      </div>
+    </section>
+
+    <!-- Alpine -->
+    <section class="team-section alpine">
+      <div class="scroll-track">
+        <img src="Alpine/F1/front%20view.jpg">
+        <img src="Alpine/Skate/F1%20Alpine%20Skate.png">
+        <img src="Alpine/F1/lateral%20view.jpg">
+        <img src="Alpine/Skate/F1%20Alpine%20Studio%20Skate.png">
+        <img src="Alpine/F1/top%20view.jpg">
+        <img src="Alpine/Skate/Alpine%20Skate.png">
+        <img src="Alpine/F1/track%20view.jpg">
+        <img src="Alpine/F1/front%20view.jpg">
+      </div>
+      
+      <div class="team-card right">
+        <h2>Alpine A525</h2>
+        <p>L'agilité à la française.</p>
+        <button class="buybutton"><span>Commander</span></button>
+      </div>
+    </section>
+
+    <!-- Aston Martin -->
+    <section class="team-section astonmartin">
+      <div class="scroll-track">
+        <img src="Aston%20Martin/F1/front%20view.jpg">
+        <img src="Aston%20Martin/Skate/F1%20Aston%20Martin%20Skate.png">
+        <img src="Aston%20Martin/F1/lateral%20view.jpg">
+        <img src="Aston%20Martin/Skate/F1%20Aston%20Martin%20Studio%20Skate.png">
+        <img src="Aston%20Martin/F1/top%20view.jpg">
+        <img src="Aston%20Martin/Skate/Aston%20Matin%20Skate.png">
+        <img src="Aston%20Martin/F1/track%20view.jpg">
+        <img src="Aston%20Martin/F1/front%20view.jpg">
+      </div>
+      
+      <div class="team-card left">
+        <h2>Aston Martin AMR25</h2>
+        <p>L'élégance britannique à l'état pur.</p>
+        <button class="buybutton"><span>Commander</span></button>
+      </div>
+    </section>
+
+    <!-- Haas -->
+    <section class="team-section haas">
+      <div class="scroll-track">
+        <img src="Haas/F1/front%20view.jpg">
+        <img src="Haas/Skate/F1%20Haas%20Skate.png">
+        <img src="Haas/F1/lateral%20view.jpg">
+        <img src="Haas/Skate/F1%20Haas%20Studio%20Skate.png">
+        <img src="Haas/F1/top%20view.jpg">
+        <img src="Haas/Skate/Haas%20Skate.png">
+        <img src="Haas/F1/track%20view.jpg">
+        <img src="Haas/F1/front%20view.jpg">
+      </div>
+      
+      <div class="team-card right">
+        <h2>Haas VF-25</h2>
+        <p>L'audace américaine sur le bitume.</p>
+        <button class="buybutton"><span>Commander</span></button>
+      </div>
+    </section>
+
+    <!-- Kick Sauber -->
+    <section class="team-section kicksauber">
+      <div class="scroll-track">
+        <img src="Kick%20Sauber/F1/front%20view.jpg">
+        <img src="Kick%20Sauber/Skate/F1%20Kick%20Sauber%20Skate.png">
+        <img src="Kick%20Sauber/F1/lateral%20view.jpg">
+        <img src="Kick%20Sauber/Skate/F1%20Kick%20Sauber%20Studio%20Skate.png">
+        <img src="Kick%20Sauber/F1/top%20view.png">
+        <img src="Kick%20Sauber/Skate/Kick%20Sauber%20Skate.png">
+        <img src="Kick%20Sauber/F1/track%20view.jpg">
+        <img src="Kick%20Sauber/F1/front%20view.jpg">
+      </div>
+      
+      <div class="team-card left">
+        <h2>Kick Sauber C45</h2>
+        <p>Le futur néon en mouvement.</p>
+        <button class="buybutton"><span>Commander</span></button>
+      </div>
+    </section>
+
+    <!-- McLaren -->
+    <section class="team-section mclaren">
+      <div class="scroll-track">
+        <img src="McLaren/F1/front%20view.jpeg">
+        <img src="McLaren/Skate/F1%20McLaren%20Skate.png">
+        <img src="McLaren/F1/lateral%20view.jpg">
+        <img src="McLaren/Skate/F1%20McLaren%20Studio%20Skate.png">
+        <img src="McLaren/F1/top%20view.jpg">
+        <img src="McLaren/Skate/McLaren%20Skate.png">
+        <img src="McLaren/F1/track%20view.jpg">
+        <img src="McLaren/F1/front%20view.jpeg">
+      </div>
+      
+      <div class="team-card right">
+        <h2>McLaren MCL39</h2>
+        <p>La vitesse avec un grand "V".</p>
+        <button class="buybutton"><span>Commander</span></button>
+      </div>
+    </section>
+
+    <!-- Mercedes AMG Petronas -->
+    <section class="team-section mercedes">
+      <div class="scroll-track">
+        <img src="Mercedes%20AMG%20Petronas/F1/front%20view.jpg">
+        <img src="Mercedes%20AMG%20Petronas/Skate/F1%20Mercedes%20AMG%20Petronas%20Skate.png">
+        <img src="Mercedes%20AMG%20Petronas/F1/lateral%20view.jpg">
+        <img src="Mercedes%20AMG%20Petronas/Skate/F1%20Mercedes%20AMG%20Petronas%20Studio%20Skate.png">
+        <img src="Mercedes%20AMG%20Petronas/F1/top%20view.jpg">
+        <img src="Mercedes%20AMG%20Petronas/Skate/Mercedes%20AMG%20Petronas%20Skate.png">
+        <img src="Mercedes%20AMG%20Petronas/F1/track%20view.jpg">
+        <img src="Mercedes%20AMG%20Petronas/F1/front%20view.jpg">
+      </div>
+      
+      <div class="team-card left">
+        <h2>Mercedes W16</h2>
+        <p>La précison d'une fléchette d'argent.</p>
+        <button class="buybutton"><span>Commander</span></button>
+      </div>
+    </section>
+
+    <!-- Visa Cash App Racing Bulls -->
+    <section class="team-section vcarb">
+      <div class="scroll-track">
+        <img src="Visa%20Cash%20App%20Racing%20Bulls/F1/front%20view.jpg">
+        <img src="Visa%20Cash%20App%20Racing%20Bulls/Skate/F1%20Visa%20Cash%20App%20Racing%20Bulls%20Skate.png">
+        <img src="Visa%20Cash%20App%20Racing%20Bulls/F1/lateral%20view.jpg">
+        <img src="Visa%20Cash%20App%20Racing%20Bulls/Skate/F1%20Visa%20Cash%20App%20Racing%20Bulls%20Studio%20Skate.png">
+        <img src="Visa%20Cash%20App%20Racing%20Bulls/F1/top%20view.jpg">
+        <img src="Visa%20Cash%20App%20Racing%20Bulls/Skate/Visa%20Cash%20App%20Racing%20Bulls%20Skate.png">
+        <img src="Visa%20Cash%20App%20Racing%20Bulls/F1/track%20view.jpg">
+        <img src="Visa%20Cash%20App%20Racing%20Bulls/F1/front%20view.jpg">
+      </div>
+      
+      <div class="team-card right">
+        <h2>VCARB 02</h2>
+        <p>L'énergie rebelle de Faenza.</p>
+        <button class="buybutton"><span>Commander</span></button>
+      </div>
+    </section>
+
+    <!-- Williams Racing -->
+    <section class="team-section williams">
+      <div class="scroll-track">
+        <img src="Williams%20Racing/F1/front%20view.jpg">
+        <img src="Williams%20Racing/Skate/F1%20Williams%20Racing%20Skate.png">
+        <img src="Williams%20Racing/F1/lateral%20view.jpg">
+        <img src="Williams%20Racing/Skate/F1%20Williams%20Racing%20Studio%20Skate.png">
+        <img src="Williams%20Racing/F1/top%20view.jpg">
+        <img src="Williams%20Racing/Skate/Williams%20Racing%20Skate.png">
+        <img src="Williams%20Racing/F1/track%20view.jpg">
+        <img src="Williams%20Racing/F1/front%20view.jpg">
+      </div>
+      
+      <div class="team-card left">
+        <h2>Williams FW47</h2>
+        <p>L'héritage d'une légende du circuit.</p>
+        <button class="buybutton"><span>Commander</span></button>
+      </div>
+    </section>
+
+    <section class="wheels-section">
+      <!-- SOFT -->
+      <div class="wheel-row soft reverse">
+        <div class="scroll-track">
+          <div class="wheel-card">
+            <h2>Pneus Tendres</h2>
+            <p>Adhérence & Attaque maximale.</p>
+            <button class="buybutton"><span>Commander</span></button>
+          </div>
+          <img src="Wheels/Skate%20Wheels/Skate%20Wheel%20Soft.png">
+          <img src="Wheels/F1%20Wheels/F1%20Soft%20tyre.jpg">
+          <img src="Wheels/F1%20Wheels/All%20F1%20tyres%20(2).jpg">
+        </div>
+      </div>
+
+      <!-- MEDIUM -->
+      <div class="wheel-row medium">
+        <div class="scroll-track">
+          <div class="wheel-card">
+            <h2>Pneus Mediums</h2>
+            <p>Notre petit favori.</p>
+            <button class="buybutton"><span>Commander</span></button>
+          </div>
+          <img src="Wheels/Skate%20Wheels/Skate%20Wheel%20Medium.png">
+          <img src="Wheels/F1%20Wheels/F1%20Medium%20tyre.jpg">
+          <img src="Wheels/Skate%20Wheels/All%20Skate%20Wheels.png">
+        </div>
+      </div>
+
+      <!-- HARD -->
+      <div class="wheel-row hard reverse">
+        <div class="scroll-track">
+          <div class="wheel-card">
+            <h2>Pneus Durs</h2>
+            <p>Temps de vie & vitesse maximale.</p>
+            <button class="buybutton"><span>Commander</span></button>
+          </div>
+          <img src="Wheels/Skate%20Wheels/Skate%20Wheel%20Hard.png">
+          <img src="Wheels/F1%20Wheels/F1%20Hard%20tyre.jpg">
+          <img src="Wheels/F1%20Wheels/All%20F1%20tyres.jpg">
+        </div>
+      </div>
+
+      <!-- INTER -->
+      <div class="wheel-row inter">
+        <div class="scroll-track">
+          <div class="wheel-card">
+            <h2>Pneus Intermédiaires</h2>
+            <p>Pour voler sur le circuit mouillé.</p>
+            <button class="buybutton"><span>Commander</span></button>
+          </div>
+          <img src="Wheels/Skate%20Wheels/Skate%20Wheel%20Inter.png">
+          <img src="Wheels/F1%20Wheels/F1%20Inter%20tyre.jpeg">
+          <img src="Wheels/Skate%20Wheels/All%20Skate%20Wheels%20(V0).png">
+        </div>
+      </div>
+
+      <!-- WET -->
+      <div class="wheel-row wet reverse">
+        <div class="scroll-track">
+          <div class="wheel-card">
+            <h2>Pneu Pluie</h2>
+            <p>Une guerre contre l'orage.</p>
+            <button class="buybutton"><span>Commander</span></button>
+          </div>
+          <img src="Wheels/Skate%20Wheels/Skate%20Wheel%20Wet.png">
+          <img src="Wheels/F1%20Wheels/F1%20Wet%20tyre.jpg">
+          <img src="Wheels/F1%20Wheels/All%20F1%20tyres%20(2).jpg">
+        </div>
+      </div>
+    </section>
+    <footer class="disclaimer">
+      <p>
+        Ce site est un projet personnel à but créatif et non commercial. 
+        Toutes les marques (F1, FIA, noms des écuries) et designs de livrées appartiennent à leurs propriétaires respectifs. 
+        Ce site n'est ni affilié, ni approuvé par la FIA ou le groupe Formula 1. 
+        Aucun produit n'est réellement disponible à la vente.
+      </p>
+    </footer>
   </body>
 </html>
-
-
