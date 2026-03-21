@@ -1,125 +1,65 @@
-# **Formula One Skate Shop**
+# 🛹 Formula One Skate Shop 2025
 
+Un site web conceptuel et immersif qui transpose les livrées officielles de la saison de **Formule 1 2025** sur des planches de skateboard. 
 
+L'objectif de ce projet est de fusionner l'ingénierie de pointe de la F1 avec l'esthétique brute de la culture skate, le tout dans une interface e-commerce moderne et dynamique.
 
+---
 
+### 🚀 Aperçu du projet
 
-Un site web concept qui imagine les livrées de Formule 1 2025 sur des planches de skateboard.
+Le site propose une expérience visuelle fluide où chaque écurie dispose de son propre univers. Pour chaque section, vous retrouverez :
+* **Galerie interactive** : Un comparatif visuel entre la monoplace réelle et le skateboard customisé.
+* **Scroll Dynamique** : Une navigation horizontale fluide pour explorer les détails des designs.
+* **Design Adaptatif** : Une interface entièrement *responsive* (Mobile, Tablette, PC).
+* **Section Pneumatiques** : Une gamme de roues de skate inspirée des gommes Pirelli (Soft, Medium, Hard, Inter, Wet).
 
+---
 
+### 🛠️ Technologies utilisées
 
-L’idée du projet est simple : mélanger l’esthétique de la F1 avec la culture skate, et créer une sorte de boutique fictive qui présenterait ces planches.
+Ce projet repose exclusivement sur des technologies web natives (**Vanilla**), sans aucun framework ni préprocesseur, garantissant une légèreté et une performance optimales :
 
+* **HTML5** : Structure sémantique complète.
+* **CSS3** : Utilisation avancée des variables (`:root`), du `flexbox`, du `grid`, et des transitions fluides de 0.3s.
+* **JavaScript (Vanilla)** : Gestion du défilement et des interactions de la boutique via `scroll.js`.
+* **Google Fonts** : Intégration des polices *Ubuntu* et *Outfit*.
 
+---
 
-Le site est entièrement fait en HTML et CSS, avec une mise en page responsive pour que ça reste propre sur téléphone comme sur ordinateur.
+### 🏎️ Équipes & Équipements disponibles
 
+Retrouvez les livrées 2025 de l'intégralité de la grille :
+* **Top Teams** : Ferrari SF-25, Red Bull RB21, Mercedes W16, McLaren MCL39.
+* **Peloton** : Aston Martin, Alpine, Haas, Williams, VCARB, Kick Sauber.
+* **Hardware** : Set complet de roues (Soft, Medium, Hard, Intermediate, Wet) avec des propriétés d'adhérence spécifiques.
 
+---
 
-Les designs des skateboards ont été générés avec des outils d’IA, puis intégrés dans le site.
+### Intelligence Artificielle & Design
 
-# 
+Tous les designs de skateboards présents sur ce site sont des créations originales générées via :
+* **ChatGPT (DALL-E 3)**
+* **Google Gemini**
 
-###### **Aperçu du projet**
+*Note : Ces outils ont été utilisés pour explorer des concepts visuels et tester l'intégration d'assets générés par IA dans un workflow de développement web.*
 
+---
 
+### Disclaimer (Clause de non-responsabilité)
 
-Le but était de faire un site simple mais visuellement sympa, où chaque équipe de F1 possède son skateboard inspiré de sa livrée 2025.
+**Ce site est un projet personnel à but purement créatif et pédagogique.**
 
+* **Aucun produit réel** : Ce site est une vitrine fictive. Rien n'est à vendre.
+* **Propriété intellectuelle** : Ce projet n'est pas affilié, approuvé ou lié à la FIA, au groupe Formula 1, ou à l'une des écuries mentionnées. Toutes les marques, noms et livrées appartiennent à leurs propriétaires respectifs.
+* **Utilisation** : Ce site a été conçu pour apprendre le développement web (HTML/CSS/JS) et expérimenter des idées de design.
 
+---
 
-Chaque section contient :
+### Évolutions futures
 
-* La voiture de F1 vue de face ;
-* Le skateboard inspiré de la livrée ;
-* Un bouton de commande aux couleurs de l’équipe ;
-* L’interface fonctionne comme une galerie, avec une grille qui s’adapte selon la taille de l’écran.
-
-# 
-
-###### **Technologies utilisées**
-
-
-
-* HTML5 ;
-* CSS3 ;
-* Google Fonts ;
-* CSS Grid ;
-* Variables CSS.
-
-# 
-
-###### **Équipes présentes**
-
-
-
-* Ferrari ;
-* Red Bull Racing ;
-* McLaren ;
-* Aston Martin ;
-* Alpine ;
-* Haas ;
-* Kick Sauber ;
-* Mercedes ;
-* Visa Cash App RB ;
-* Williams ;
-* Audi (concept du skate seulement).
-
-
-
-Il y a même les différentes gommes, mais disponible en version skate wheels.
-
-# 
-
-###### **Images générées par IA**
-
-
-
-Les designs des skateboards ont été générés avec :
-
-* ChatGPT ;
-* Google Gemini.
-
-
-
-C’était surtout pour tester des idées visuelles et voir ce que ça pouvait donner. (Chat GPT est BIEN meilleur pour générer des images)
-
-# 
-
-###### **Disclaimer**
-
-
-
-Ce projet est juste un concept personnel.
-
-
-
-Il n’a aucun lien avec les licences de la Formule 1, la FIA ou les équipes mentionnées.
-
-
-
-Tous les noms et livrées appartiennent évidemment à leurs propriétaires.
-
-# 
-
-###### **Important**
-
-
-
-**Il n’y a aucun produit réel.**
-
-
-
-**Je ne vends rien.**
-
-
-
-Ce site existe uniquement pour :
-
-* Apprendre le HTML et le CSS ;
-* Tester des idées de design ;
-* Et m’amuser un peu avec le projet.
-
-
-
-Enfin, j'ai par la suite, l'intention de faire de ce projet un site web complet. (Il n'est pas ma priorité actuelle)
+Bien que ce projet soit un concept, des améliorations sont envisagées :
+* Finalisation d'un système de panier interactif.
+* Animations d'apparition des cartes.
+* Optimisation SEO et accessibilité.
+* Possiblité de faire les livrées d'autres années.
