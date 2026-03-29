@@ -1,3 +1,5 @@
+// L'IA m'a aidé à réalisé cette partie : au moment de réaliser cette partie du site web, je n'avais toujours pas eu de cours de JavaScript.
+
 // Pour chaque section, on crée un slider pour contrôler le scroll
 document.querySelectorAll('.team-section').forEach(section => {
   const track = section.querySelector('.scroll-track');
@@ -20,4 +22,5 @@ document.querySelectorAll('.team-section').forEach(section => {
   track.addEventListener('scroll', () => {
     slider.value = track.scrollLeft;
   });
+
 });
